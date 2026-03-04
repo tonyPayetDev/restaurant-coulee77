@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Coulee 77 - Cuisine créative à Sainte-Rose</title>
+    <meta name="description" content="Restaurant Coulee 77 - Savourez l'intensité et la passion culinaire à Sainte-Rose. Une expérience gastronomique unique.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Coulee 77</a>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact" class="btn-reserver">Réserver</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Bienvenue au</span>
+            <h1>Restaurant Coulee 77<br><span class="highlight">Savourez l'intensité</span> et la passion culinaire à Sainte-Rose</h1>
+            <p class="hero-text">Une expérience gastronomique où chaque plat raconte une histoire de saveurs audacieuses et de créativité sans limites.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">Découvrir le menu</a>
+                <a href="#contact" class="btn-secondary">Réserver une table</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </header>
+
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=800&fit=crop" alt="Intérieur du restaurant">
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle">Notre histoire</span>
+                    <h2>Une passion transmise depuis 2015</h2>
+                    <p>Né d'une passion profonde pour la cuisine authentique, le Restaurant Coulee 77 a ouvert ses portes en 2015 dans le cœur battant de Sainte-Rose. Notre chef, formé dans les plus grandes tables d'Europe, fusionne techniques traditionnelles et innovations modernes.</p>
+                    <p>Chaque ingrédient est sélectionné avec soin auprès des producteurs locaux, garantissant fraîcheur et qualité dans chaque assiette.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Années d'excellence</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15K+</span>
+                            <span class="stat-label">Clients satisfaits</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Plats créatifs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Notre carte</span>
+                <h2>Menu Signature</h2>
+                <p>Découvrez nos créations culinaires, conçues pour éveiller vos sens</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="entrees">Entrées</button>
+                <button class="tab-btn" data-tab="plats">Plats</button>
+                <button class="tab-btn" data-tab="desserts">Desserts</button>
+                <button class="tab-btn" data-tab="vins">Vins</button>
+            </div>
+            <div class="menu-content">
+                <div class="tab-content active" id="entrees">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Tartare de thon aux agrumes</h3>
+                                <span class="price">18€</span>
+                            </div>
+                            <p>Thon frais, zestes de citron vert, huile d'olive basilic, éclats de pistache</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Carpaccio de bœuf</h3>
+                                <span class="price">22€</span>
+                            </div>
+                            <p>Fines tranches de bœuf, copeaux de parmesan, roquette, huile de truffe</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Soupe de poisson créole</h3>
+                                <span class="price">16€</span>
+                            </div>
+                            <p>Brodo de poisson, rougail, banane plantain croquante, coriandre fraîche</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Salade de chèvre chaud</h3>
+                                <span class="price">15€</span>
+                            </div>
+                            <p>Fromage de chèvre caramélisé, miel de montagne, noix toastées, mesclun</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="plats">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Filet de dorade royale</h3>
+                                <span class="price">32€</span>
+                            </div>
+                            <p>Purée de patate douce, légumes glacés, sauce vierge au gingembre</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Magret de canard rôti</h3>
+                                <span class="price">28€</span>
+                            </div>
+                            <p>Gratin de courgettes, sauce aux figues, écrasé de pommes de terre</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Risotto aux fruits de mer</h3>
+                                <span class="price">30€</span>
+                            </div>
+                            <p>Crevettes, calamars, moules, parmesan vieilli 24 mois, zestes de citron</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Entrecôte grillée</h3>
+                                <span class="price">35€</span>
+                            </div>
+                            <p>Pommes grenailles rôties, sauce au poivre vert, salade verte</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="desserts">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Fondant au chocolat</h3>
+                                <span class="price">12€</span>
+                            </div>
+                            <p>Chocolat noir 70%, cœur coulant, glace vanille de Madagascar</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Crème brûlée à la vanille</h3>
+                                <span class="price">10€</span>
+                            </div>
+                            <p>Vanille bourbon, caramel croquant, framboises fraîches</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Tarte tatin revisitée</h3>
+                                <span class="price">14€</span>
+                            </div>
+                            <p>Pommes caramélisées, pâte feuilletée maison, glace caramel beurre salé</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Assiette de fromages</h3>
+                                <span class="price">16€</span>
+                            </div>
+                            <p>Sélection de fromages locaux et d'importation, confiture de figues</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="vins">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Sancerre Blanc 2021</h3>
+                                <span class="price">45€</span>
+                            </div>
+                            <p>Sauvignon blanc, notes d'agrumes et de buis, finale minérale</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Bourgogne Pinot Noir</h3>
+                                <span class="price">52€</span>
+                            </div>
+                            <p>Rouge élégant, fruits rouges, tanins soyeux, belle longueur</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Champagne Brut</h3>
+                                <span class="price">75€</span>
+                            </div>
+                            <p>Bulles fines, arômes de pomme et de brioche, fraîcheur exceptionnelle</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Rosé de Provence</h3>
+                                <span class="price">38€</span>
+                            </div>
+                            <p>Léger et fruité, notes de pêche et de pamplemousse, parfait en apéritif</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Galerie</span>
+                <h2>Nos Créations</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=600&fit=crop" alt="Plat gastronomique">
+                    <div class="gallery-overlay">
+                        <span>Filet de dorade</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=400&fit=crop" alt="Dessert">
+                    <div class="gallery-overlay">
+                        <span>Desserts maison</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=400&fit=crop" alt="Ambiance restaurant">
+                    <div class="gallery-overlay">
+                        <span>Ambiance cosy</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=400&fit=crop" alt="Tartare">
+                    <div class="gallery-overlay">
+                        <span>Tartare frais</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=400&h=400&fit=crop" alt="Vin">
+                    <div class="gallery-overlay">
+                        <span>Sélection de vins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Témoignages</span>
+                <h2>Ce que disent nos clients</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="stars">★★★★★</div>
+                    <p>"Une expérience culinaire exceptionnelle ! Le tartare de thon était divin et le service impeccable. Le restaurant Coulee 77 est devenu notre adresse préférée à Sainte-Rose."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Marie L.</span>
+                        <span class="author-title">Cliente régulière</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"L'ambiance est chaleureuse, la carte des vins est remarquable et chaque plat est une œuvre d'art. Je recommande vivement le menu dégustation !"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Pierre D.</span>
+                        <span class="author-title">Critique gastronomique</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Nous avons célébré notre anniversaire de mariage ici et tout était parfait. Un grand merci à toute l'équipe pour cette soirée mémorable."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Sophie et Jean M.</span>
+                        <span class="author-title">Clients satisfaits</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-subtitle">Contact</span>
+                    <h2>Réservez votre table</h2>
+                    <p>Pour une expérience gastronomique inoubliable, réservez dès maintenant ou contactez-nous pour toute demande spéciale.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>123 Rue Principale, 97439 Sainte-Rose, La Réunion</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+262 262 12 34 56</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">✉️</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@coulee77.fr</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">🕒</span>
+                            <div>
+                                <h4>Horaires</h4>
+                                <p>Lundi - Samedi: 12h00 - 14h30 | 19h00 - 22h30<br>Dimanche: Fermé</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="reservationForm">
+                        <div class="form-group">
+                            <label for="nom">Nom complet</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="heure">Heure</label>
+                                <select id="heure" name="heure" required>
+                                    <option value="">Choisir</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="20:30">20:30</option>
+                                    <option value="21:00">21:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="personnes">Nombre de personnes</label>
+                            <select id="personnes" name="personnes" required>
+                                <option value="">Choisir</option>
+                                <option value="1">1 personne</option>
+                                <option value="2">2 personnes</option>
+                                <option value="3">3 personnes</option>
+                                <option value="4">4 personnes</option>
+                                <option value="5">5 personnes</option>
+                                <option value="6">6 personnes</option>
+                                <option value="7+">7 personnes et +</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message (optionnel)</label>
+                            <textarea id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">Confirmer la réservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Coulee 77</h3>
+                    <p>Savourez l'intensité et la passion culinaire à Sainte-Rose. Une expérience gastronomique unique depuis 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="TripAdvisor">🌟</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Accessibilité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Inscrivez-vous pour recevoir nos offres spéciales</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email">
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Restaurant Coulee 77. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon">✓</div>
+            <h3>Réservation confirmée !</h3>
+            <p>Votre demande de réservation a bien été envoyée. Nous vous contacterons dans les plus brefs délais pour la confirmation.</p>
+            <button class="btn-primary close-modal-btn">Fermer</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
